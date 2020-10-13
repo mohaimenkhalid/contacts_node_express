@@ -33,4 +33,4 @@ class Contact{
 }
 
 const contacts = new Contact();
-exports.contacts = contacts;
+module.exports = contacts;
