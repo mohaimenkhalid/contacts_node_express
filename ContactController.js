@@ -19,3 +19,22 @@ exports.getContactById = (req, res) => {
     let contact = contacts.getContactById(id)
     return res.json(contact);
 }
+
+exports.updateContact = (req, res) => {
+    let { id } = res.params;
+    id = parseInt(id);
+    let { name, email, phone } = res.body;
+    let contact = contacts.updateContactById(id, {
+        name,
+        email,
+        phone
+    });
+    res.json(contact);
+}
+
+exports.deleteContact = (req, res) => {
+    let { id } = req.params;
+    id = parseInt(id);
+    let contact = contacts.deleteContact(id);
+    res.json(contact);
+}
