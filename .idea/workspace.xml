@@ -21,9 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3cc9e887-6fa1-4ac5-9e75-c9d4d5d8a1a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/Contact_old.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContactController.js" beforeDir="false" afterPath="$PROJECT_DIR$/ContactController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/route.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +71,8 @@
       <workItem from="1602697427723" duration="330000" />
       <workItem from="1602784781371" duration="4967000" />
       <workItem from="1602824403641" duration="5908000" />
-      <workItem from="1602839480451" duration="10656000" />
+      <workItem from="1602839480451" duration="13562000" />
+      <workItem from="1602910190575" duration="4611000" />
     </task>
     <servers />
   </component>
@@ -90,13 +92,17 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="697" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602613585122">
+    <state x="697" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602874329262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="697" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602613585122" />
+    <state x="697" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602874329262" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1602825227049">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602825227049" />
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1602912567298">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602912567298" />
   </component>
 </project>
