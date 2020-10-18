@@ -45,9 +45,37 @@ exports.getContactById = (req, res) => {
 }
 
 exports.updateContact = (req, res) => {
+    let  { id }  = req.params;
+    let { name, email, phone } = req.body;
+    Contact.findOneAndUpdate(
+        { _id : id },
+        { $set: { name, email, phone }},
+        {new: true}
+        )
+        .then(contact => {
+            res.json(contact)
+        })
+        .catch(e => {
+            console.log(e)
+            res.json({
+                message : 'Error Occurred'
+            })
+        })
 
 }
 
 exports.deleteContact = (req, res) => {
-
+    let { id } = req.params;
+    Contact.findByIdAndDelete({_id: id})
+        .then(contact => {
+            res.json({
+                message: 'Deleted successfully!'
+            })
+        })
+        .catch(e => {
+            console.log(e)
+            res.json({
+                message : 'Error Occurred'
+            })
+        })
 }
