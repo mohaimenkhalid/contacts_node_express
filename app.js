@@ -10,8 +10,7 @@ app.use(express.urlencoded({extended: true}))
 app.use(express.json())
 
 app.get('/', (req, res) =>{
-    res.json({
-    })
+    res.render('index')
 });
 app.use('/contact', contactRouter);
 app.get('*', (req, res) => {
@@ -20,6 +19,7 @@ app.get('*', (req, res) => {
 
 
 const PORT = process.env.PORT || 5000
+//Connect with mongodb server
 const  mongoAtlasUri = "mongodb+srv://root:root@cluster0.zdrps.mongodb.net/express?retryWrites=true&w=majority";
 mongoose.connect(mongoAtlasUri, { useNewUrlParser: true, useUnifiedTopology: true})
     .then(()=>{
